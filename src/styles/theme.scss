@@ -1,5 +1,9 @@
-@import "./_constants.scss";
-@import "./landing.scss";
+@import "_constants.scss";
+@import "nav.scss";
+@import "landing.scss";
+@import "about.scss";
+@import "sponsors.scss";
+@import "footer.scss";
 
 * {
     -moz-box-sizing: border-box;
@@ -8,6 +12,7 @@
     width: 100%;
     margin: 0;
     padding: 0;
+    letter-spacing: 2px;
 //   max-width: 100%;
 //   font-size: $md;
 }
