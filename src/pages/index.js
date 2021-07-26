@@ -14,8 +14,8 @@ const IndexPage = () => {
     <Layout>
       <Landing />
       <About />
-      <Sponsors />
       <FAQ />
+      <Sponsors />
       <GetInvolved />
     </Layout>
   )

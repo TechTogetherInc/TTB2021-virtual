@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import BackgroundImage from 'gatsby-background-image';
 
 import byteBalloon from "../images/byteBalloon.png"
+import bytePurpleBalloon from "../images/bytePurpleBalloon.png"
 
 const BackgroundSection = ({className}) => {
   const data = useStaticQuery(
@@ -49,7 +50,7 @@ const BackgroundSection = ({className}) => {
           </div>
 
           <div className="byteImages" style={{position: "relative"}}>
-            <img src={byteBalloon} alt="oops" style={{width: 175, position: "absolute",bottom:"0", right:"0"}}/>
+            <img src={bytePurpleBalloon} alt="oops" style={{width: 175, position: "absolute",bottom:"0", right:"0"}}/>
           </div>
 
           <div className="byteImages">

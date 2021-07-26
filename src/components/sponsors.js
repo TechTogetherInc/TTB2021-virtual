@@ -36,8 +36,6 @@ const BackgroundSection = ({className}) => {
                 <img src={byteTelescope} alt="oops" style={{width: 175, position: "absolute", bottom:"0", right:"0"}}/>
             </div>
           </div>
-
-          
       </div>
     </BackgroundImage>
   )

@@ -7,9 +7,10 @@
     display: flex;
 
     .landingSubcontainer {
+        width: 950px;
         position: relative;
         display: inline-flex;
-        margin: 100px 150px 200px 250px;
+        margin: 100px auto 200px auto;
         flex-flow: row;
 
         .landingText {
